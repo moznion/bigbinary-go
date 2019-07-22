@@ -1,4 +1,4 @@
-bigbinary-go [![CircleCI](https://circleci.com/gh/moznion/bigbinary-go/tree/master.svg?style=svg)](https://circleci.com/gh/moznion/bigbinary-go/tree/master)
+bigbinary-go [![CircleCI](https://circleci.com/gh/moznion/bigbinary-go/tree/master.svg?style=svg)](https://circleci.com/gh/moznion/bigbinary-go/tree/master) [![codecov](https://codecov.io/gh/moznion/bigbinary-go/branch/master/graph/badge.svg)](https://codecov.io/gh/moznion/bigbinary-go)
 ==
 
 bigbinary provides some utility functions to convert a byte slice to a big integer.
