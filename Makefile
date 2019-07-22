@@ -3,7 +3,7 @@ PKGS := $(shell go list ./...)
 check: test lint vet fmt-check
 
 test:
-	go test -v $(PKGS)
+	go test -v -cover -race -coverprofile=coverage.txt -covermode=atomic $(PKGS)
 
 lint:
 	golint -set_exit_status $(PKGS)
